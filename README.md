@@ -72,3 +72,5 @@ Explanation: Spline interpolation, such as B-spline or cubic spline interpolatio
 
 
 Choosing the right interpolation method depends on the specific requirements of your image processing task, including desired image quality, computational resources, and speed. For example, nearest-neighbor interpolation is ideal for fast, low-quality tasks, while bicubic and Lanczos interpolations are suited for high-quality resizing needs. Understanding the trade-offs of each method helps you select the best approach for your project, ensuring the resized images maintain as much detail and quality as possible.
+
+## The code contains 2 examples of implementation 3 methods with random numbers and one real image.##
