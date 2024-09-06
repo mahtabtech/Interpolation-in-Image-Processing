@@ -2,10 +2,11 @@
 Understanding Interpolation in Image Processing
 In image processing and object detection, interpolation methods are essential tools for resizing images while maintaining their quality as much as possible. When you need to make an image smaller or larger (such as fitting it to a specific size required by a model or algorithm), interpolation methods help estimate new pixel values to fill in the gaps or reduce the size without losing too much detail.
 
-## **Why Interpolation Matters For example:**
+### **Why Interpolation Matters For example:**
 
 Resizing Images for Models: Object detection models often require input images to be of a certain size. Interpolation methods ensure the image is resized correctly while trying to keep important features (like edges and details) intact, which helps the model detect objects more accurately. In simple terms, interpolation methods help make images bigger or smaller while trying to keep them looking as clear and detailed as possible.
-Categories of Interpolation Methods
+
+### **Categories of Interpolation Methods**
 Different interpolation methods are used depending on the use case, desired output quality, and computational constraints. Below are some of the most common interpolation techniques, each with its own characteristics, pros, and cons:
 
 1. Nearest-Neighbor Interpolation
