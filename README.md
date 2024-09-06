@@ -13,9 +13,9 @@ Different interpolation methods are used depending on the use case, desired outp
 Explanation: Nearest-neighbor interpolation is the simplest and fastest method. It assigns the value of the nearest pixel to the new pixel location, effectively copying the closest pixel's value.
 
 **Pros:**
-Very fast and computationally efficient.
-Simple to implement.
-Preserves hard edges and fine details in the image.
+- Very fast and computationally efficient.
+- Simple to implement.
+- Preserves hard edges and fine details in the image.
 
 **Cons:**
 Produces a blocky or pixelated effect, especially when enlarging an image.
